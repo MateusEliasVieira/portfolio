@@ -7,7 +7,12 @@
         font-size: 15px;
     }
     #info{
+        display: none;
+    }
+    form{
         width: 100%;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgb(192, 190, 190);
     }
   }
   
@@ -21,6 +26,7 @@
     }
     #info{
         width: 100%;
+        display: none;
     }
   }
   
