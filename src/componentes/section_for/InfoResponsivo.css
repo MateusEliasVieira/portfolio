@@ -1,0 +1,34 @@
+@media (max-width: 576px) {
+    /* Estilos para dispositivos móveis em modo portrait */
+    #coluna_imagem{
+      display: none;
+    }
+    #coluna_conteudo{
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    /* Estilos para dispositivos móveis em modo landscape */
+    #coluna_imagem{
+      display: none;
+    }
+    #coluna_conteudo{
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Estilos para tablets */
+    #coluna_imagem{
+      display: none;
+    }
+    #coluna_conteudo{
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Estilos para laptops e desktops */
+
+  }

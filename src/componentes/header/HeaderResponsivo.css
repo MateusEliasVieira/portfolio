@@ -1,0 +1,98 @@
+@media screen and (max-width: 576px) {
+    /* Estilos para dispositivos móveis em modo portrait */
+
+    #header nav ul.nav{
+        margin: 10px 30px;
+    }
+
+    #introducao > div > p{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    #introducao > div{
+        width: 90%;
+        min-width: 350px;
+        text-align: center;
+        margin: 50px auto 0px auto;
+    }
+
+    #img_computador{
+        max-width: 350px;
+        max-height: 350px;
+        margin:100px auto 0px auto;
+    }
+
+}
+  
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Estilos para dispositivos móveis em modo landscape */
+    #header > nav.navbar{
+        /* background-color: wheat; */
+        /* box-shadow: 0px 0px 20px rgb(39, 227, 170);*/
+    }
+
+    #header nav ul.nav{
+        margin: 10px 30px;
+    }
+
+    #introducao > div{
+        width: 90%;
+        min-width: 350px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    #img_computador{
+        max-width: 350px;
+        max-height: 350px;
+        margin:0px auto;
+    }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Estilos para tablets */
+    #header > nav.navbar{
+        background-color: #1b1e29;
+    }
+    #header nav ul.nav{
+        margin: 10px 30px;
+    }
+    #introducao{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #introdução > div{
+        width: 60%;
+    }
+    #introducao > div > p{
+        width: 70%;
+        font-size: 18px;
+    }
+    #introducao > div > div > h1{
+        text-align: start;
+        font-size: 30px;
+        color: rgb(195, 203, 209);
+    }
+    #img_computador{
+        max-width: 300px;
+        max-height: 320px;
+        margin:0px auto;
+    }
+}
+  
+@media screen and (min-width: 992px) {
+    /* Estilos para laptops e desktops */
+    #header > nav.navbar{
+        background-color: #1b1e29;
+        /* box-shadow: 0px 0px 20px rgb(39, 227, 170);*/
+    }
+}
+
+
+/* ------  */
+

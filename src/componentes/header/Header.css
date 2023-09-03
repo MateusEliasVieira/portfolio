@@ -1,0 +1,97 @@
+#header{
+    width: 100%;
+    height: 100%;
+}
+#header > nav.navbar{
+    background-color: #1b1e29;
+   /* box-shadow: 0px 0px 20px rgb(39, 227, 170);*/
+}
+#header > nav > div.container-fluid > a.navbar-brand{
+    color: #d045ff !important;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#header nav ul.nav{
+    margin-right: 30px;
+    min-width: 350px;
+    --bs-nav-link-color:var(--bs-white); 
+    --bs-nav-pills-link-active-color: var(--bs-white); 
+    --bs-nav-pills-link-active-bg: #d045ff;
+}
+#header nav ul.navbar-nav li.nav-item a.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+#link-servicos{
+    color: yellow;
+}
+#conteudo_header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1e29;
+   /* background-color: #f2f3f5;*/
+}
+#introducao{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#introducao > div{
+    width: 40%;
+    min-width: 350px;
+    text-align: center;
+    font-size: 30px;
+    /*background-color: blue;*/
+    margin-left: 100px;
+}
+#introducao > div > div{
+    display: flex;
+    align-items: center;
+}
+#introducao > div > div > h1{
+    text-align: start;
+    color: rgb(195, 203, 209);
+}
+#ponto{
+    width: 10px;
+    height: 10px;
+    background-color: #e3d005;
+    display: block;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#introducao > div > p{
+    color: #e3d005;
+    font-size: 25px;
+    /*background-color: red;*/
+    text-align: justify;
+}
+#introducao > div > p > div{
+    display: inline-block;
+    border: 1px solid yellow;
+    padding: 0px 5px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 10px rgb(246, 246, 49);
+}
+#img_computador{
+    max-width: 500px;
+    max-height: 500px;
+    /*background-color: aqua;*/
+    margin-right: 30px;
+    margin-top: 60px;
+}
+#linha{
+    width: 100%;
+    box-shadow: 0px -10px 30px #d045ff;
+    height: 10px;
+    background-color: #fafafa;
+}
+  

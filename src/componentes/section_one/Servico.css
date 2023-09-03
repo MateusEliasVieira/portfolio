@@ -1,0 +1,12 @@
+#sectionOne{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
