@@ -2,7 +2,7 @@
     /* Estilos para dispositivos móveis em modo portrait */
 
     #header nav ul.nav{
-        margin: 10px 30px;
+        margin: 10px auto;
     }
 
     #introducao > div > p{
@@ -33,7 +33,7 @@
     }
 
     #header nav ul.nav{
-        margin: 10px 30px;
+        margin: 10px auto;
     }
 
     #introducao > div{
@@ -56,7 +56,7 @@
         background-color: #1b1e29;
     }
     #header nav ul.nav{
-        margin: 10px 30px;
+        margin: 10px auto;
     }
     #introducao{
         width: 100%;
