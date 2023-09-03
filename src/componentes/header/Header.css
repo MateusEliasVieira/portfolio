@@ -9,7 +9,7 @@
 #header > nav > div.container-fluid > a.navbar-brand{
     color: #d045ff !important;
     font-size: 25px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 #header nav ul.nav{
     margin-right: 30px;
