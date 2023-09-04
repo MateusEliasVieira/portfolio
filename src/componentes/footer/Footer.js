@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return(
-        <footer>
+        <footer id="footer">
             <div id="redes_sociais_footer">
                 <a href="https://www.instagram.com/mateus.esv/" target="_blank" title="Instagram do desenvolvedor">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

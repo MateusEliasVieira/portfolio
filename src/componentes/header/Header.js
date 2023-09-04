@@ -9,27 +9,26 @@ const header = () => {
        <div id="header">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">DevSoft</a>
+                    <a class="navbar-brand" href="#header">DevSoft</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-                        <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" >
-
-                            <li class="nav-item" role="presentation">
+                        <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist">
+                            <a class="nav-item" role="presentation" href="#header">
                                 <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Início</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
+                            </a>
+                            <a class="nav-item" role="presentation" href="#sectionOne">
                                 <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Serviços</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
+                            </a>
+                            <a class="nav-item" role="presentation" href="#sectionFor">
+                                <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Local</button>
+                            </a>
+                            <a class="nav-item" role="presentation" href="#sectionTwo">
                                 <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contato</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Sobre</button>
-                            </li>
+                            </a>
                         </ul>
 
                     </div>
