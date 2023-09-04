@@ -4,23 +4,23 @@
     #header nav ul.nav{
         margin: 10px auto;
     }
-
     #introducao > div > p{
         width: 70%;
         font-size: 18px;
     }
-
     #introducao > div{
         width: 90%;
         min-width: 350px;
         text-align: center;
         margin: 50px auto 0px auto;
     }
-
     #img_computador{
         max-width: 350px;
         max-height: 350px;
         margin:100px auto 0px auto;
+    }
+    #texto_header{
+        padding-left:10px;
     }
 
 }
@@ -31,22 +31,22 @@
         /* background-color: wheat; */
         /* box-shadow: 0px 0px 20px rgb(39, 227, 170);*/
     }
-
     #header nav ul.nav{
         margin: 10px auto;
     }
-
     #introducao > div{
         width: 90%;
         min-width: 350px;
         text-align: center;
         margin: 50px auto;
     }
-
     #img_computador{
         max-width: 350px;
         max-height: 350px;
         margin:0px auto;
+    }
+    #texto_header{
+        padding-left:10px;
     }
 }
   

@@ -1,7 +1,6 @@
 import Header from './componentes/header/Header';
 import Servico from './componentes/section_one/Servico';
 import Contato from './componentes/section_two/Contato';
-import Sobre from './componentes/section_three/Sobre';
 import Info from './componentes/section_for/Info';
 import Footer from './componentes/footer/Footer';
 

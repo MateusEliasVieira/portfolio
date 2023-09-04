@@ -38,7 +38,7 @@ const header = () => {
             <div id="conteudo_header">
 
                 <div id="introducao">
-                    <div> 
+                    <div id="texto_header"> 
                         <div>
                             <h1>Soluções em Tecnologia</h1>             
                             <h2 id="ponto"></h2>
