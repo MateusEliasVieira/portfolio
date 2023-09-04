@@ -38,7 +38,7 @@
         width: 90%;
         min-width: 350px;
         text-align: center;
-        margin: 50px auto;
+        margin: 50px auto 20px auto;
     }
     #img_computador{
         max-width: 350px;
@@ -68,6 +68,7 @@
     }
     #introdução > div{
         width: 60%;
+        margin: 50px auto 20px auto;
     }
     #introducao > div > p{
         width: 70%;
